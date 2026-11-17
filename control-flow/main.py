@@ -44,3 +44,10 @@ for i in range(1,10,3):
 # no matter what you take in input it will always be string
 age = int(input('Please give your age: '))
 print(age > 18)
+
+
+my_students = ['Nawraa','Waad','Raghad']
+
+# same as forEach() in JavaScript
+for one_student in my_students:
+    print(one_student)
